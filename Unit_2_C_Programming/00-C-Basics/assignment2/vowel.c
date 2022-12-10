@@ -13,7 +13,7 @@ int main ()
 	fflush(stdout);
 	scanf("%c",&a);
 	fflush(stdin);
-	if((a=='a')||(a=='e')||(a=='i')||(a=='u')||(a=='o'))
+	if((a=='a')||(a=='e')||(a=='i')||(a=='u')||(a=='o')||(a=='A')||(a=='E')||(a=='I')||(a=='U')||(a=='O'))
 		printf("%c is a vowel", a);
 	else printf("%c is not a vowel", a);
 	return 0;
