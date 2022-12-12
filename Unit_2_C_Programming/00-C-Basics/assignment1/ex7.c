@@ -17,9 +17,13 @@ int main()
 	fflush(stdout);
 	scanf("%f",&b);
 	fflush(stdin);
-	printf("a=%f",b);
-	printf("b=%f",a);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("a=%f",a);
+	printf("b=%f",b);
 
 	return 0;
 }
+
 
