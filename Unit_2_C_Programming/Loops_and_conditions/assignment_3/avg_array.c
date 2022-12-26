@@ -13,7 +13,7 @@ int main ()
 	printf("EnterThe number of data: ");
 	fflush(stdin); fflush(stdout);
 	scanf("%d",&n);
-	while((n<0)||(n>100))
+	while((n<=0)||(n>100))
 	{
 		printf("Error, the range should be from 1 to 100. \n Please enter another number: ");
 		fflush(stdin); fflush(stdout);
